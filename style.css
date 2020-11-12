@@ -1,0 +1,77 @@
+body{
+    height: 100%;
+}
+
+.container-fluid{
+    height: 900px;
+    width: 100%;
+    background-color: darkslategray;    
+}
+
+.todo-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styling{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.todo-list{
+    min-width: 50%;
+    list-style: none;
+}
+
+.select-list{
+    margin-top: 1%;
+    display: flex;
+    justify-self: center;
+}
+
+.todo{
+    margin: 2px;
+    background: rgb(20, 20, 20);
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.todo-item{
+    margin-left: 8px;
+    margin-right: 10%;
+}
+
+.vietiniss{
+    margin-left: 4%;
+    align-items: flex-end;  
+}
+
+.complete-btn{
+    background: green;
+    border: none;
+    cursor: pointer;
+    
+}
+.trash-btn{
+    background: red;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.completed {
+    
+    opacity: 0.6;
+}
+
+.fall{
+    transform: translateX(8rem);
+    opacity: 0;
+}
+
